@@ -62,6 +62,8 @@ ACO <- function(n_ants, alpha, beta, Q, evaporation_rate,
               fitness = min(fitness)))
 }
 
+
+#Ejemplo
 set.seed(1011)
 cord <- data.frame(lon = runif(100),lat = runif(100))
 d <- as.matrix(dist(cord))
