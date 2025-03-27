@@ -72,7 +72,7 @@ ACO <- function(n_ants, alpha, beta, Q, evaporation_rate,
 }
 
 
-
+#Ejemplo
 set.seed(1011)
 cord <- data.frame(lon = rnorm(100,0,1),lat = rnorm(100,0,1))
 d <- as.matrix(dist(cord))
